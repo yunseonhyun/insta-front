@@ -28,6 +28,7 @@ const Header = ({
     if(type === 'feed') {
         return (
             <>
+
                 <header className="header">
                     <div className="header-container">
                         <img className="header-title"
