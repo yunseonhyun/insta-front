@@ -1,6 +1,7 @@
 // src/service/commonService.js
 
-export const API_BASE_URL = "http://localhost:9000";
+// export const API_BASE_URL = "http://localhost:9000";
+export const API_BASE_URL = "https://3.38.199.131:9000";
 
 /**
  * commonSetvice에 현재 날짜를 몇 시간 전에 업로드했는지 formatData 메서드 사용하여 날짜 변환
