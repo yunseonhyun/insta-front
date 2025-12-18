@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 
+/*
 export const API_BASE_URL = 'https://3.38.199.131:9000/api';
 
 const api = axios.create({
@@ -9,15 +10,16 @@ const api = axios.create({
         'Content-Type': 'application/json',
     }
 });
+*/
 
-/*const BASE_URL = '/api';
+const BASE_URL = '/api';
 
 const api = axios.create({
     baseURL: BASE_URL,
     headers: {
         'Content-Type': 'application/json',
     }
-});*/
+});
 
 // 모든 요청에 JWT 토큰 추가
 // 사용자의 요청을 가로채다 = interceptor
